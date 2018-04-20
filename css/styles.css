@@ -1,0 +1,82 @@
+
+body{
+  background-size: cover;
+  font-family: serif;
+  background: url("../images/binary.jpg") ;
+}
+.about {
+  transform-style: preserve-3d;
+  background-position: center;
+  background-color: inherit;
+  text-decoration-color: blue;
+}
+.intro{
+  text-align: center;
+  font-family: serif;
+  color: white;
+  background-color: inherit;
+  opacity: 0.8;
+  font-size: 20px;
+  width: 1000px;
+  margin-left: 200px;
+  margin-right: 1000px;
+
+}
+.title{
+  text-align: center;
+  font-family: serif;
+  color: white;
+  font-size: 50px;
+}
+.image{
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  display:  inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  filter:grayscale(50%);
+  border-radius: 50px;
+  filter: blur(60%);
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+ul{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+ul li {
+  float: left;
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  opacity:1.8px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 5px;
+
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  ul li a:hover{
+    background-color: green;
+  }
+  ul li ul li {
+    display: none;
+  }
+  ul li:hover ul li{
+    display: block;
+  }
+.Dan{
+  font-style: oblique;
+}
