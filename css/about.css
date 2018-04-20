@@ -2,7 +2,7 @@ body{
   background: url("../images/binary.jpg") ;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 h1 {
   font-size: 40px;
@@ -54,3 +54,6 @@ ul li {
   ul li:hover ul li{
     display: block;
   }
+.Who {
+  text-align: center;
+}
